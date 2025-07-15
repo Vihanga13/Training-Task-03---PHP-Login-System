@@ -23,24 +23,6 @@ include_once 'header.php';
                 <p>You are not currently logged in to any account.</p>
             <?php endif; ?>
         </section>
-        
-        <section class="logout-actions">
-            <h2>What's Next?</h2>
-            <div class="action-buttons">
-                <a href="index.php" class="action-btn primary">Go to Home</a>
-                <a href="login.php" class="action-btn secondary">Login Again</a>
-                <a href="signup.php" class="action-btn success">Create New Account</a>
-            </div>
-        </section>
-        
-        <section class="logout-info">
-            <div class="info-box">
-                <h3>Session Information</h3>
-                <p><strong>Logout Time:</strong> <?php echo date('Y-m-d H:i:s'); ?></p>
-                <p><strong>Status:</strong> <span class="status-inactive">Logged Out</span></p>
-                <p><strong>Session:</strong> Terminated</p>
-            </div>
-        </section>
     </div>
 </div>
 

@@ -318,6 +318,27 @@ body {
     color: #6c757d;
 }
 
+/* Simple Welcome Page Styles */
+.welcome-actions {
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.welcome-actions h2 {
+    color: #333;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+
+.welcome-actions .action-buttons {
+    gap: 2rem;
+}
+
+.welcome-actions .action-btn {
+    font-size: 1.1rem;
+    padding: 1.2rem 2.5rem;
+}
+
 /* Footer Styles */
 footer {
     background-color: #1a1a1a;

@@ -5,7 +5,7 @@ session_start();
 $wasLoggedIn = isset($_SESSION["useruid"]);
 $username = $wasLoggedIn ? $_SESSION["useruid"] : "Guest";
 
-// Destroy the session
+
 session_unset();
 session_destroy();
 
